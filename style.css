@@ -21,12 +21,12 @@ ul{
 }
 
 body > header {
-    background-color: pink;
+    background-color: green;
     color: white;
     display: flex;
     height: 12vh;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -48,10 +48,10 @@ body > header > nav > ul{
     text-decoration: none;
     padding: 12px;
     border: 1px solid white ;
-    border-radius: 10%;
+    border-radius: 30%;
 }
 body > main  article {
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 
@@ -61,19 +61,25 @@ body > main  article {
 }
 
 #main-content > div {
-    width: 80%;
+    width: 90%;
+}
+#side {
+    margin: 25px;
+    font-family: "Fredoka One", sans-serif;
+
 }
 
-h2 {
+h3 {
     text-align: center;
 }
 form {
     text-align: center;
 }
 body > footer {
-    background-color: pink;
+    background-color: green;
     color: white;
     display: flex;
+    height: 12vh;
 }
 
 #footer-ul {
@@ -82,7 +88,9 @@ body > footer {
 }
 
 #footer-ul > div > li {
-    margin-left: 12px;
+    margin-left: 20px;
+    padding-left: 80px;
+    padding-top: 6px;
 }
 
 #footer-ul > div > li >a {
@@ -94,3 +102,10 @@ body > footer {
 img {
     border-radius: 50%;
 }
+
+
+
+line-height: 1.15;
+-webkit-text-size-adjust: 100%;
+box-sizing: border-box;
+position: relative;
