@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightBlogSite</title>
+</head>
+<body>
+    <header id="main-header">
+        <!-- press command / to add this to comments, not displayed on webpage, can re-add with command / -->
+         <h1 id="logo">BrightBlog</h1>
+         <nav>
+            <ul id="nav-ul">
+                <li><a href="http://127.0.0.1:5500/day_1/index.html" class="navbutton">Home</a></li>
+                <li><a href="https://www.wpkube.com/html5-cheat-sheet/" class="navbutton">About us</a></li>
+                <li><a href="https://www.wpkube.com/html5-cheat-sheet/" class="navbutton">CheatSheet</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <div id="main-content">  
+            <aside>
+                <section>
+                    <h4>Filter by month</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Filter for January</a></li>
+                            <li><a href="">Filter for February</a></li>
+                            <li><a href="">Filter for March</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <h4>Filter by category</h4>
+                <nav>
+                    <ul>
+                        <li><a href="">Cats</a></li>
+                        <li><a href="">Kittens</a></li>
+                        <li><a href="">Dogs</a></li>
+                    </ul>
+                </nav>
+                <section>
+            </aside>
+            <div>
+                <article>
+                    <header>
+                    <!-- header goes here -->
+                     <h2>Ten amusing facts about cats</h2>
+                     <h3>Read time 5 mins</h3>
+                    </header>
+                    <main>
+                        <p> CATS have 9 lives </p>
+                        <p>Cat's whiskers are mood indicators. If they hang down relaxed, the cat is satisfied. If they are facing straight ahead, they may be angry.</p>
+                            <p>Cats love catnip, especially the real catnip (Nepeta Cataria). It has an intoxicating effect on the animals. Responsible for this is the fragrance nepetalactone, a volatile substance that makes cats euphoric.</p>
+                            <p>Cats mark their owners as possessions. They have scent glands in their cheeks, paws and flanks. When they rub against their human with it, they leave a message for other cats that they have claimed their owners.</p>
+                            <p>The cat's tongue is equipped with tiny spikes (papillae). These are curved and equipped with U-shaped cavities. Through these cavities, saliva is passed on to the fur and down to the skin when it is licked, which provides important cooling.</p>
+                            <p>Each cat's nose print is as unique as a fingerprint. If there was a scanner for it, cats would no longer have to be microchipped.</p>
+                            <p>Red cats are mostly male. Tricolored cats are almost always female.</p>
+                            <p>White cats with blue eyes are prone to deafness. The cause is an anomaly in their genetic make-up.</p>
+                            <p>Cats primarily only meow for humans. Communication with other cats takes place via body language.</p>
+                            <p>Cats sleep most of the time. It is estimated at 14-16 hours per day or 70% of their life.</p>
+                            <p>The oldest cat was 38 years old. "Creme Puff" was born on August 3rd, 1967 and passed away on August 6th, 2005, exactly after 38 years and three days. With this achievement, Creme Puff got into the Guinness Book of Records.</p>
+        
+                        <cite>"I love cats" - Sara, 2024</cite>
+                        </blockquote>
+                    </main>
+                    <footer>
+                        <!-- footer goes here, include author, images ect -->
+                         <h3>Author: Sara Akhtar</h3>
+                         <img src="https://placebear.com/200/200" alt="an image of a dog for some reason">
+                         <h4>Last posted: 2024</h4>
+                         <a href="https://www.instagram.com/sara_akhtarx/" target="_blank">Authors profile</a>
+                    </footer>
+                </article>   
+            </div>
+        </div>
+
+        <hr>
+        <h2>Sign up for our newsletter!</h2>
+        <form action="" method="">
+            <label for="First_name">First Name:</label>
+            <input type="text" id="First_name" name="First_name" required>
+<br>
+            <label for="Last_name">Last Name:</label>
+            <input type="text" id="Last_name" name="Last_name" required>
+            <br>
+            <label for="Email">Email</label>
+            <input type="Email" name="Email" id="Email">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="favourite_animal"></label>
+            <input type="radio" name="favourite_animal" id="Cat" value="Cat">
+            <label for="Cat">Cat</label>
+            <input type="radio" name="favourite_animal" id="Dog" value="Dog">
+            <label for="Dog">Dog</label>
+            <input type="radio" name="favourite_animal" id="Snakw" value="Snake">
+            <label for="Snake">Snake</label>
+            <br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+            <option value="england">England</option>
+            <option value="scotland">Scotland</option>
+            <option value="wales">Wales</option>
+            <option value="Northern_Ireland">Northern Ireland</option>
+        </select>
+        <br>
+        <label for="bio">Biography</label>
+        <textarea name="bio" id="bio" cols="30" rows="4"></textarea>
+        <br>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to our newsletter!</label>
+        <br>
+        <input type="submit" value="send">
+
+        </form>
+        <hr> 
+    </main>
+    <footer>
+        <h1 id="logo">BrightBlog</h1>
+        <nav>
+            <ul id="footer-ul">
+                <div>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Careers</a></li>
+                </div>
+                <div>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & conditions</a></li>
+                    <li><a href="">Cookie Policy</a></li>
+                </div>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html> 
